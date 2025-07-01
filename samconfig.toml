@@ -1,9 +1,9 @@
 version = 0.1
 
 [default.deploy.parameters]
-stack_name = "todo-list-staging"
+stack_name = "todo-list-prod"
 resolve_s3 = true
-s3_prefix = "todo-list-staging"
+s3_prefix = "todo-list-prod"
 region = "us-east-1"
 confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
