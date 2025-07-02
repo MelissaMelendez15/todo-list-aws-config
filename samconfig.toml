@@ -7,4 +7,5 @@ s3_prefix = "todo-list-staging"
 region = "us-east-1"
 confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
+parameter_overrides = "Stage=staging"
 image_repositories = []
