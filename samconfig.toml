@@ -7,5 +7,5 @@ s3_prefix = "todo-list-prod"
 region = "us-east-1"
 confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
-parameter_overrides = "Stage=prod"
+parameter_overrides = "Stage=production"
 image_repositories = []
